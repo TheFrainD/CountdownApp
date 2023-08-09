@@ -15,8 +15,9 @@
 		CE8AA5812A7A6F52008C91C4 /* CountdownApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE8AA57F2A7A6F52008C91C4 /* CountdownApp.xcdatamodeld */; };
 		CE8AA58C2A7A70A4008C91C4 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AA58B2A7A70A4008C91C4 /* EventView.swift */; };
 		CE8AA58E2A7A70B5008C91C4 /* EventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AA58D2A7A70B5008C91C4 /* EventRowView.swift */; };
-		CE8AA5922A7A712A008C91C4 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AA5912A7A712A008C91C4 /* FloatingButton.swift */; };
 		CE8AA5942A7A7171008C91C4 /* EventEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AA5932A7A7171008C91C4 /* EventEditView.swift */; };
+		CE8AA5972A7BBC9F008C91C4 /* TimerComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AA5962A7BBC9F008C91C4 /* TimerComponentView.swift */; };
+		CE8AA5992A7BBD22008C91C4 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AA5982A7BBD22008C91C4 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,9 @@
 		CE8AA5822A7A6F52008C91C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8AA58B2A7A70A4008C91C4 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 		CE8AA58D2A7A70B5008C91C4 /* EventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
-		CE8AA5912A7A712A008C91C4 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		CE8AA5932A7A7171008C91C4 /* EventEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditView.swift; sourceTree = "<group>"; };
+		CE8AA5962A7BBC9F008C91C4 /* TimerComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerComponentView.swift; sourceTree = "<group>"; };
+		CE8AA5982A7BBD22008C91C4 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,7 @@
 		CE8AA5882A7A6F68008C91C4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CE8AA5902A7A70FB008C91C4 /* Helpers */,
+				CE8AA5952A7BBC75008C91C4 /* Timer */,
 				CE8AA58F2A7A70E8008C91C4 /* Event */,
 			);
 			path = View;
@@ -103,12 +105,13 @@
 			path = Event;
 			sourceTree = "<group>";
 		};
-		CE8AA5902A7A70FB008C91C4 /* Helpers */ = {
+		CE8AA5952A7BBC75008C91C4 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				CE8AA5912A7A712A008C91C4 /* FloatingButton.swift */,
+				CE8AA5962A7BBC9F008C91C4 /* TimerComponentView.swift */,
+				CE8AA5982A7BBD22008C91C4 /* TimerView.swift */,
 			);
-			path = Helpers;
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,10 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8AA5992A7BBD22008C91C4 /* TimerView.swift in Sources */,
 				CE8AA58E2A7A70B5008C91C4 /* EventRowView.swift in Sources */,
 				CE8AA5942A7A7171008C91C4 /* EventEditView.swift in Sources */,
 				CE8AA57E2A7A6F52008C91C4 /* Persistence.swift in Sources */,
-				CE8AA5922A7A712A008C91C4 /* FloatingButton.swift in Sources */,
+				CE8AA5972A7BBC9F008C91C4 /* TimerComponentView.swift in Sources */,
 				CE8AA5772A7A6F51008C91C4 /* EventListView.swift in Sources */,
 				CE8AA5752A7A6F51008C91C4 /* CountdownApp.swift in Sources */,
 				CE8AA5812A7A6F52008C91C4 /* CountdownApp.xcdatamodeld in Sources */,
